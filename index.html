@@ -2,10 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" href="styles.css">
-
-    <title>Tarnov portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://unpkg.com/sanitize.css" rel="stylesheet" />
+    <title>Lane portfolio</title>
   </head>
   <!-- body -->
   <body>
@@ -14,57 +14,52 @@
       <hgroup id="hero">
         <h1 id="nickname">Lane</h1>
         <span id="roles">
-            <p class="role">Developer,</p>
-            <p class="role">Futurist</p>
-            <!-- <p class="role">Variance Group Founder</p> -->
+          <p class="role">Developer,</p>
+          <p class="role">Futurist</p>
         </span>
       </hgroup>
+      <section id="about">
+        <p>
+          Welcome to my website, it's not that interesting at the moment, but it
+          will be in the future.
+        </p>
+      </section>
     </header>
-
-    <main>
-        <!-- I got the about section here explaining the website -->
-        <section id="about">
-          <p> 
-            Welcome to my website, it's not that interesting at the moment, but it will be in the future.
-          </p>
-        </section>
-      
-      <hr class="hr-line">
+    <hr class="hr-line" />
+    <main id="main">
       <!-- This is the section for my projects -->
-      <section id="projects">
+      <section id="projects" class="section">
         <h2>Current Projects</h2>
         <ul class="project-list">
-          <li class="projects">HTML</li>
-          <li class="projects">CSS</li>
-          <li class="projects">JavaScript</li>
-          <li class="projects">React</li>
-          <li class="projects">Next.Js</li>
-          <li class="projects">Rapid skill acquisition</li>
+          <li class="highlight">HTML</li>
+          <li class="highlight">CSS</li>
+          <li class="highlight">JavaScript</li>
+          <li class="highlight">React</li>
+          <li class="highlight">Next.Js</li>
+          <li class="highlight">Rapid skill acquisition</li>
         </ul>
       </section>
 
-      <hr class="hr-line">
+      <hr class="hr-line" />
       <!-- Section where I'll be articulating my ideas -->
-      <section id="ideas">
+      <section id="ideas" class="section">
         <h2>Ideas</h2>
       </section>
 
-      <hr class="hr-line">
-      <section id="goals">
+      <hr class="hr-line" />
+      <section id="goals" class="section">
+        <h2>Goals</h2>
         <article id="books" class="goal">
-          <h2>Books I will be reading this year</h2>
+          <h3 class="highlight">Books I will be reading this year</h3>
           <ul>
             <li>The Sovereign Individual</li>
             <li>The Courage To Be Disliked</li>
           </ul>
         </article>
       </section>
-
     </main>
 
-    <hr>
-    <footer>
-    </footer>
-  
-</body>
+    <hr />
+    <footer></footer>
+  </body>
 </html>
