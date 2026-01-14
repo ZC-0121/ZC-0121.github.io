@@ -57,5 +57,5 @@ img {
 .maincontent {
   width: 100vw;
   height: 90vh;
-  background-color: hsl(0, 0%, 50%);
+  background-color: rgb(128, 128, 128);
 }
